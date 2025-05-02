@@ -5,9 +5,13 @@ We simulated a simplified model of colon crypt development to explore various de
 
 ## Explore simulation results
 1. For an interactive exploration of the simulation results, please click [here](https://eddieloh-usc.github.io/eddieloh-usc-pages/ColonCryptSCLineageSymmetricSim/index.html).  
-2. If the server above is not accessible, the interactive app can also be run from your local R/RStudio software with the code below.  
+2. If the link above is not accessible, the interactive app can also be run from your local R/RStudio software with the code below.  
       ```
-      library(shiny)
+      # Install the Shiny package (if you haven't done so)
+      install.packages("shiny")
+
+      # Load the package and run the app
+      library("shiny")
       runUrl("https://github.com/eddieloh-usc/ColonCryptSim/raw/refs/heads/main/ShinyApp.zip")
       ```
 
